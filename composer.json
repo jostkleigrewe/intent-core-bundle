@@ -1,12 +1,11 @@
 {
     "name": "jostkleigrewe/intent-core-bundle",
-    "version": "0.0.1",
     "type": "symfony-bundle",
     "description": "IntentCoreBundle for the Symfony Framework",
     "keywords": ["Intent", "Symfony", "Bundle"],
     "homepage": "https://projects.jostkleigrewe.com/jostkleigrewe/intent-core-bundle",
     "minimum-stability": "dev",
-    "license": "",
+    "license": "MIT",
     "config": {
         "preferred-install": {
             "*": "dist"
@@ -29,7 +28,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0.0",
+        "php": "^8.0.0",
         "symfony/framework-bundle": "^5.0"
     },
     "require-dev": {
