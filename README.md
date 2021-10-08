@@ -42,7 +42,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new <vendor>\<bundle-name>\<bundle-long-name>(),
+            new Jostkleigrewe\IntentCoreBundle\JostkleigreweIntentCoreBundle(),
         );
 
         // ...

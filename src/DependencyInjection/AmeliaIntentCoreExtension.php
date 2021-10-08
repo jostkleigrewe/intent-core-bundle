@@ -26,7 +26,7 @@ class AmeliaIntentCoreExtension extends Extension
             $container->setParameter($this->getAlias().'.'.$key, $value);
         }
 
-        $locator = new FileLocator(__DIR__ . '/../Resources/config/');
+        $locator = new FileLocator(__DIR__ . '/../../config/');
         $loader  = new XmlFileLoader($container, $locator);
 
         $loader->load('services.xml');
