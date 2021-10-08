@@ -11,7 +11,7 @@ class Configuration implements ConfigurationInterface
 
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('amelia_intent_core');
+        $treeBuilder = new TreeBuilder('jostkleigrewe_intent_core');
 
         if (method_exists($treeBuilder, 'getRootNode')) {
             $rootNode = $treeBuilder->getRootNode();

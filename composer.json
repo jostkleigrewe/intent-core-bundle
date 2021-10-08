@@ -2,16 +2,13 @@
     "name": "jostkleigrewe/intent-core-bundle",
     "type": "symfony-bundle",
     "description": "IntentCoreBundle for the Symfony Framework",
-    "keywords": ["Intent", "Symfony", "Bundle"],
-    "homepage": "https://projects.jostkleigrewe.com/jostkleigrewe/intent-core-bundle",
+    "keywords": ["Jostkleigrewe","Intent", "Symfony", "Bundle"],
+    "homepage": "https://projects.jostkleigrewe.com",
     "minimum-stability": "dev",
     "license": "MIT",
     "config": {
         "preferred-install": {
             "*": "dist"
-        },
-        "platform": {
-            "php": "8.0"
         },
         "sort-packages": true
     },
@@ -19,12 +16,6 @@
         {
             "name": "Sven Jostkleigrewe",
             "email": "sven@jostkleigrewe.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://satis.eurip.net"
         }
     ],
     "require": {
